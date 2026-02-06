@@ -32,7 +32,6 @@ def download_song(song):
             "--cookies", "cookies.txt",
             "-o", f"{OUTPUT_DIR}/{song}.%(ext)s",
             "--no-playlist",
-            "--quiet",
             "--no-warnings",
         ],
         check=False,
