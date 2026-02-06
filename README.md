@@ -1,1 +1,1 @@
-requires yt-dlp and fffmpeg
+requires yt-dlp and ffmpeg
